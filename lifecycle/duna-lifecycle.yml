@@ -1,0 +1,7 @@
+generated: '2026-07-18'
+method: searched
+source: https://duna.com
+status_page: https://status.duna.com
+notes: Duna publishes a public status page at status.duna.com (HTTP 200). No public
+  API reference, versioning policy, or deprecation policy is published (docs.duna.com
+  is password-protected), so no versioning/deprecation posture could be captured.

@@ -1,8 +1,25 @@
 aid: duna
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/duna.png
 name: Duna
-description: 'Duna is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Duna is an AI-native business identity platform for KYB (Know Your Business),
+  KYC (Know Your Customer), AML (Anti-Money Laundering), and lifecycle compliance. It
+  accelerates enterprise business onboarding by turning compliance policy into auditable
+  code via a policy engine, using AI agents for document verification and periodic reviews,
+  with deep localization across 210+ business registries and 7+ languages. Duna serves
+  fintechs, banks, and platforms including Plaid, Moss, and Bol, and is backed by Index
+  Ventures. Note: docs.duna.com is password-protected, so no public API reference,
+  OpenAPI, or developer portal was available at enrichment time.'
 url: https://raw.githubusercontent.com/api-evangelist/duna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Compliance
+- KYB
+- KYC
+- AML
+- Identity Verification
+- Onboarding
+- RegTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://duna.com
+  url: https://duna.com
+- type: TrustCenter
+  url: security/duna-trust-center.yml
+- type: Compliance
+  url: https://duna.com/resources/trust
+- type: Security
+  url: https://duna.com/resources/trust
+- type: VulnerabilityDisclosure
+  url: security/duna-vulnerability-disclosure.yml
+- type: SecurityTxt
+  url: well-known/duna-security.txt
+- type: WellKnown
+  url: well-known/duna-well-known.yml
+- type: DomainSecurity
+  url: security/duna-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/duna-lifecycle.yml
+- type: StatusPage
+  url: https://status.duna.com
+- type: PrivacyPolicy
+  url: https://duna.com/resources/privacy-policy
+- type: Blog
+  url: https://duna.com/news
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
