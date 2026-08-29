@@ -32,6 +32,9 @@ description: 'Duna is an AI-native business identity platform for KYB (Know Your
   Ventures. Note: docs.duna.com is password-protected, so no public API reference,
   OpenAPI, or developer portal was available at enrichment time.'
 url: https://raw.githubusercontent.com/api-evangelist/duna/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
+x-api-posture-note: "Note: docs.duna.com is password-protected, so no public API reference, OpenAPI, or developer portal was available at enrichment time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
